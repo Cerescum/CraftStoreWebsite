@@ -1,24 +1,32 @@
 <template>
-    <header class="d-flex justify-content-around">
+    <header class="d-flex justify-content-between px-5 py-2 border-bottom border-warning-30 align-items-middle fixed-top bg-white-50">
 
-        <span data-logo="penpal" class="d-flex gap-2 mx-md-2">
-        <span data-logo="logo-svg">
-            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-            <path d="M24.6666 10.8712L13.283 22.5614C11.9703 23.9094 10.1898 24.6667 8.33328 24.6667C6.47676 24.6667 4.69627 23.9094 3.38351 22.5614C2.07075 21.2134 1.33325 19.3851 1.33325 17.4788C1.33325 15.5724 2.07075 13.7441 3.38351 12.3961L12.7334 2.79629C13.1639 2.33862 13.6788 1.97356 14.2482 1.72242C14.8175 1.47128 15.4299 1.33908 16.0495 1.33355C16.6692 1.32803 17.2837 1.44927 17.8572 1.69021C18.4307 1.93115 18.9518 2.28697 19.3899 2.7369C19.8281 3.18683 20.1746 3.72185 20.4092 4.31076C20.6439 4.89968 20.762 5.53067 20.7566 6.16694C20.7512 6.80321 20.6225 7.43201 20.3779 8.01664C20.1333 8.60128 19.7778 9.13004 19.3321 9.57208L9.9832 19.1772C9.5432 19.6138 8.95383 19.8554 8.34204 19.85C7.73025 19.8446 7.14498 19.5927 6.7123 19.1486C6.27961 18.7044 6.03412 18.1035 6.02871 17.4753C6.0233 16.8471 6.25839 16.2418 6.68336 15.7899L16.0333 6.18579" stroke="#9E402C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>  </svg>
-        </span>
-        <h3 class="poppins">Penpal</h3>
+        <span id="logo-header" class="d-flex gap-2 align-items-middle">
+            <span id="logo-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 26 26" fill="none">
+                <path d="M24.6666 10.8712L13.283 22.5614C11.9703 23.9094 10.1898 24.6667 8.33328 24.6667C6.47676 24.6667 4.69627 23.9094 3.38351 22.5614C2.07075 21.2134 1.33325 19.3851 1.33325 17.4788C1.33325 15.5724 2.07075 13.7441 3.38351 12.3961L12.7334 2.79629C13.1639 2.33862 13.6788 1.97356 14.2482 1.72242C14.8175 1.47128 15.4299 1.33908 16.0495 1.33355C16.6692 1.32803 17.2837 1.44927 17.8572 1.69021C18.4307 1.93115 18.9518 2.28697 19.3899 2.7369C19.8281 3.18683 20.1746 3.72185 20.4092 4.31076C20.6439 4.89968 20.762 5.53067 20.7566 6.16694C20.7512 6.80321 20.6225 7.43201 20.3779 8.01664C20.1333 8.60128 19.7778 9.13004 19.3321 9.57208L9.9832 19.1772C9.5432 19.6138 8.95383 19.8554 8.34204 19.85C7.73025 19.8446 7.14498 19.5927 6.7123 19.1486C6.27961 18.7044 6.03412 18.1035 6.02871 17.4753C6.0233 16.8471 6.25839 16.2418 6.68336 15.7899L16.0333 6.18579" stroke="#9E402C" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>  </svg>
+            </span>
+            <h3 class="text-primary">Penpal</h3>
         </span>
 
-        <span class="d-flex align-middle gap-4">
-            <p>
-                <a class="text-decoration-underline text-dark">en</a> / <a class="text-black-50">ro</a>
+        <form action="" class="input-group w-50 h-9">
+            <input type="text" class="form-control form-control-sm border-transparent" placeholder="search your product...">
+            <span class="input-group-text">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 18 18" fill="none">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6375 12.2932C15.965 9.30405 15.7547 4.97949 13.0069 2.23163C10.0314 -0.743876 5.20713 -0.743876 2.23163 2.23163C-0.743876 5.20713 -0.743876 10.0314 2.23163 13.0069C4.97949 15.7547 9.30405 15.965 12.2932 13.6375C12.3061 13.6521 12.3195 13.6664 12.3334 13.6803L16.3741 17.721C16.7461 18.093 17.3491 18.093 17.721 17.721C18.093 17.3491 18.093 16.7461 17.721 16.3741L13.6803 12.3334C13.6664 12.3195 13.6521 12.3061 13.6375 12.2932ZM11.66 3.57853C13.8916 5.81016 13.8916 9.42834 11.66 11.66C9.42834 13.8916 5.81016 13.8916 3.57853 11.66C1.34691 9.42834 1.34691 5.81016 3.57853 3.57853C5.81016 1.34691 9.42834 1.34691 11.66 3.57853Z" fill="black"/> </svg>
+            </span>
+        </form>
+
+        <span class="d-flex gap-4">
+            <p class="m-0 d-flex align-self-middle">
+                <a class="text-decoration-underline text-dark">en</a> / <a class="text-black-50 text-decoration-none">ro</a>
             </p>
             <span class="d-flex align-middle gap-2">
-            <span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M8.92999 8.5C8.92999 9.36195 9.2724 10.1886 9.8819 10.7981C10.4914 11.4076 11.318 11.75 12.18 11.75C13.0419 11.75 13.8686 11.4076 14.4781 10.7981C15.0876 10.1886 15.43 9.36195 15.43 8.5C15.43 7.63805 15.0876 6.8114 14.4781 6.2019C13.8686 5.59241 13.0419 5.25 12.18 5.25C11.318 5.25 10.4914 5.59241 9.8819 6.2019C9.2724 6.8114 8.92999 7.63805 8.92999 8.5Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-                <path d="M17.236 16.75C16.8625 15.7239 16.1824 14.8376 15.2879 14.2114C14.3934 13.5851 13.3279 13.2491 12.236 13.2491C11.1441 13.2491 10.0786 13.5851 9.18415 14.2114C8.28968 14.8376 7.60954 15.7239 7.23602 16.75" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12.0945" cy="11.5" r="9.75" stroke="black" stroke-width="1.5"/></svg>
-            </span>
-            <p class="text-black-50">my account</p>
+                <span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M8.92999 8.5C8.92999 9.36195 9.2724 10.1886 9.8819 10.7981C10.4914 11.4076 11.318 11.75 12.18 11.75C13.0419 11.75 13.8686 11.4076 14.4781 10.7981C15.0876 10.1886 15.43 9.36195 15.43 8.5C15.43 7.63805 15.0876 6.8114 14.4781 6.2019C13.8686 5.59241 13.0419 5.25 12.18 5.25C11.318 5.25 10.4914 5.59241 9.8819 6.2019C9.2724 6.8114 8.92999 7.63805 8.92999 8.5Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M17.236 16.75C16.8625 15.7239 16.1824 14.8376 15.2879 14.2114C14.3934 13.5851 13.3279 13.2491 12.236 13.2491C11.1441 13.2491 10.0786 13.5851 9.18415 14.2114C8.28968 14.8376 7.60954 15.7239 7.23602 16.75" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12.0945" cy="11.5" r="9.75" stroke="black" stroke-width="1.5"/></svg>
+                </span>
+                <p class="text-black-50 m-0">my account</p>
             </span>
             <span>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -36,4 +44,21 @@ export default {
 </script>
 
 <style>
+  .bg-primary-30{
+    background-color: rgba(158, 64, 44, 0.25)
+  }
+  .bg-warning-30{
+    background-color: rgba(228, 200, 156, 0.25);
+  }
+  .custom-list{
+    list-style: none;
+  }
+  .bg-white-50{
+    background-color: rgba(255, 255, 255, 0.95);
+  }
+
+  .custom-list li::before {
+    content: url('your-custom-icon.svg'); /* Replace default bullet with custom SVG */
+    margin-right: 8px; /* Adjust spacing between the icon and the list item */
+  }
 </style>
