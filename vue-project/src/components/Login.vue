@@ -1,4 +1,5 @@
 <template>
+    <Header/>
     <section class="d-flex justify-content-center gap-5 min-w-screen-md my-40">
         <div class="w-80">
             <h2 class="text-uppercase text-center mb-5">log in</h2>
@@ -36,11 +37,17 @@
             <button class="btn btn-primary w-100 p-3 mt-4">sign in</button>
         </div>
     </section>
+    <Footer/>
 </template>
 
 <script>
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
 export default {
-    name: 'Header'
+    name: 'Login',
+    components: {
+        Header, Footer
+    }
 }
 </script>
 

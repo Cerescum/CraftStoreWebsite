@@ -8,6 +8,7 @@ import Header from './components/Header.vue'
 import Home from './components/Home.vue'
 import Login from './components/Login.vue'
 import Product from './components/Product.vue'
+import Cart from './components/Cart.vue'
 import Footer from './components/Footer.vue'
 
 export default {
@@ -16,6 +17,7 @@ export default {
     Home,
     Login,
     Product,
+    Cart,
     Footer
   }
 }
@@ -49,7 +51,7 @@ export default {
         background-color: #FBF9F9 !important;
     }
     .text-primary{
-        color: #964C2C !important;
+        color: #96402C !important;
     }
     .bg-primary{
         background-color: #9E402C !important;
@@ -58,5 +60,9 @@ export default {
         background-color: #9E402C;
         border: none;
         border-radius: 4px;
+    }
+    .btn-outline-primary{
+        background-color: none !important;
+        outline: #9E402C !important;
     }
 </style>

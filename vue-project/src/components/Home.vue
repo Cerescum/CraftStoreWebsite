@@ -352,13 +352,14 @@
   <div>
     <h2 class="text-uppercase display-5">Delivery at your doorstep!</h2>
     <p class="text-primary">So you can satisfy your needs faster</p>
-    <ul class="mt-5">
-      <li class="my-2">Regular delivery schedules ensure a consistent supply of essential office supplies</li>
-      <li class="my-2">The delivery service use eco-friendly packaging and transportation methods</li>
-      <li class="my-2">Discounts on bulk orders</li>
-      <li class="my-2">Personalized subscription packages tailored to the specific needs of businesses or individuals</li>
-      <li class="my-2">Accessible to individuals who may have mobility limitations</li>
+    <ul class="mt-5 list-disc">
+      <li>Regular delivery schedules ensure a consistent supply of essential office supplies</li>
+      <li>The delivery service use eco-friendly packaging and transportation methods</li>
+      <li>Discounts on bulk orders</li>
     </ul>
+    <button class="w-100 btn btn-primary mt-4 p-3">
+      <a href="/#/delivery" class="text-light no-underline">find out more</a>
+    </button>
   </div>
   <span class="d-flex justify-content-end tracking-wide">
     <svg width="540" height="424" viewBox="0 0 540 424" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -454,8 +455,13 @@
 </template>
 
 <script>
+import Header from '@/components/Header.vue'
+import Footer from '@/components/Footer.vue'
 export default {
-    name: 'Home'
+    name: 'Home',
+    components: {
+        Header, Footer
+    }
 }
 </script>
 
