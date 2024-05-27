@@ -1,0 +1,66 @@
+[
+    {
+      "name": "Executive Ballpoint Pen",
+      "id": "EP_65824",
+      "price": 2.00,
+      "description": "Elegant ballpoint pen with a sleek design, perfect for professional settings.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/zys50zvf4v.jpg"
+    },
+    {
+      "name": "Professional Notebooks Set",
+      "id": "PN_45678",
+      "price": 7.50,
+      "description": "Set of high-quality notebooks with durable covers, ideal for taking notes during meetings or conferences.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/9itefacucl.jpg"
+    },
+    {
+      "name": "Staple Remover",
+      "id": "SR_78901",
+      "price": 1.50,
+      "description": "Handheld staple remover for quickly and easily removing staples from documents without damaging the paper.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/111Jenia/Penale/20-300x300.jpg"
+    },
+    {
+      "name": "Desktop File Organizer",
+      "id": "DF_12345",
+      "price": 10.00,
+      "description": "Sturdy desktop file organizer with multiple compartments for sorting and storing documents, folders, and files.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/111Jenia/Penale/12_1-300x300.jpg"
+    },
+    {
+      "name": "Electric Pencil Sharpener",
+      "id": "PS_23456",
+      "price": 8.50,
+      "description": "Electric pencil sharpener with a powerful motor for fast and efficient sharpening of pencils.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/1ipbyisnu2.jpg"
+    },
+    {
+      "name": "Professional Binder Set",
+      "id": "PB_78910",
+      "price": 9.50,
+      "description": "Set of professional binders with clear overlay pockets for customizable covers and spine labels.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/s5x2xkvhij.jpg"
+    },
+    {
+      "name": "Desk Lamp",
+      "id": "DL_34567",
+      "price": 15.00,
+      "description": "Adjustable desk lamp with multiple brightness levels and a flexible gooseneck for directing light where needed.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/xj6c8_9bah.jpg"
+    },
+    {
+      "name": "Desktop Calendar",
+      "id": "DC_56789",
+      "price": 5.00,
+      "description": "Desktop calendar with monthly and weekly views, perfect for keeping track of appointments, deadlines, and meetings.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/ivul192f7k.jpg"
+    }
+]

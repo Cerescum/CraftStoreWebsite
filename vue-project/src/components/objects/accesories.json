@@ -1,0 +1,84 @@
+[
+    {
+      "name": "Desk Organizer",
+      "id": "DO_65824",
+      "price": 12.00,
+      "description": "Stylish desk organizer with compartments for pens, pencils, scissors, and other office supplies.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/pentru%20casa/ceasuri/M61A4840-700x700.jpg"
+    }
+    ,
+    {
+      "name": "Desk Lamp",
+      "id": "DL_45678",
+      "price": 15.00,
+      "description": "Adjustable desk lamp with multiple brightness levels and a flexible gooseneck for directing light where needed.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/1111Ian/2024/electronica/IMG_4659-700x700.JPG"
+    },
+    {
+      "name": "Wall Calendar",
+      "id": "WC_78901",
+      "price": 10.00,
+      "description": "Large wall calendar with monthly views, perfect for planning and organizing schedules in offices or homes.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/pentru%20casa/lampa/M61A2051-700x700.jpg"
+    },
+    {
+      "name": "Coasters Set",
+      "id": "CS_12345",
+      "price": 6.50,
+      "description": "Set of decorative coasters to protect surfaces from drink stains and spills.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/111Jenia/Jucarii/Jucarie%20Animals%20plapuma5-700x700.jpg"
+    },
+    {
+      "name": "Plant Pot Holder",
+      "id": "PPH_23456",
+      "price": 8.00,
+      "description": "Metal plant pot holder with a modern design, suitable for indoor plants and succulents.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/Penare/penar%2030/M61A4681-700x700.jpg"
+    },
+    {
+      "name": "Wall Clock",
+      "id": "WC_78910",
+      "price": 9.50,
+      "description": "Classic wall clock with a silent quartz mechanism, ideal for offices, kitchens, or living rooms.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/mixn_9ci0_.jpg"
+    },
+    {
+      "name": "Bulletin Board",
+      "id": "BB_34567",
+      "price": 14.00,
+      "description": "Large bulletin board with a cork surface, perfect for pinning notes, memos, and reminders.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/d7_svm6iho.jpg"
+    },
+    {
+      "name": "Bookends Set",
+      "id": "BE_56789",
+      "price": 7.00,
+      "description": "Set of decorative bookends to keep books, magazines, and files upright and organized on shelves or desks.",
+      "sale": true,
+      "img": "https://m.media-amazon.com/images/I/818R6iwyx0L._AC_UL480_FMwebp_QL65_.jpg"
+    },
+    {
+      "name": "Mouse Pad",
+      "id": "MP_67890",
+      "price": 5.00,
+      "description": "Mouse pad with a smooth surface for precise mouse movements and a non-slip base to prevent slipping.",
+      "sale": true,
+      "img": "https://kawaiicat.md/image/cache/catalog/AAAelastic/O1CN01H6LizF1UytJpXiFO3_!!2209280492587-0-cib-300x300.jpg"
+    },
+    {
+      "name": "Artificial Plant",
+      "id": "AP_90123",
+      "price": 11.00,
+      "description": "Artificial plant with lifelike foliage, perfect for adding a touch of greenery to desks, shelves, or countertops.",
+      "sale": true,
+      "img": "https://kawaiicat.md/image/cache/catalog/1Bijuterie/bra%C8%9Bara/O1CN013ZSpTz1Bs2lyFyZ6w_!!0-0-cib1-300x300.jpg"
+    }
+]
+  

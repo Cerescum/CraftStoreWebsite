@@ -1,0 +1,83 @@
+[
+    {
+      "name": "Sketchbook",
+      "id": "SKB_65824",
+      "price": 8.00,
+      "description": "Hardcover sketchbook with acid-free paper, ideal for drawing, sketching, and doodling.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/cf84asnylx.jpg"
+    },
+    {
+      "name": "Acrylic Paint Set",
+      "id": "APS_45678",
+      "price": 10.00,
+      "description": "Set of acrylic paint tubes in assorted colors, suitable for canvas painting, crafts, and art projects.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/tf21gkpcd1.jpg"
+    },
+    {
+      "name": "Watercolor Brushes Set",
+      "id": "WBS_78901",
+      "price": 6.50,
+      "description": "Set of watercolor brushes with assorted sizes and shapes, perfect for creating delicate washes and intricate details.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/5zy_9ogdgb.jpg"
+    },
+    {
+      "name": "Oil Pastels Set",
+      "id": "OPS_12345",
+      "price": 5.00,
+      "description": "Set of oil pastels in rich, vibrant colors, great for blending, layering, and creating textured effects.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/j15vtaid7b.jpg"
+    },
+    {
+      "name": "Drawing Charcoal Set",
+      "id": "DCS_23456",
+      "price": 3.50,
+      "description": "Set of drawing charcoal sticks in assorted hardness grades, ideal for sketching, shading, and tonal studies.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/y32hzp6i1z.jpg"
+    },
+    {
+      "name": "Modeling Clay Set",
+      "id": "MCS_78910",
+      "price": 4.50,
+      "description": "Set of colorful modeling clay in assorted colors, perfect for sculpting, molding, and creating 3D artworks.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/1jd_3i5_kl.jpg"
+    },
+    {
+      "name": "Craft Knife Set",
+      "id": "CKS_34567",
+      "price": 7.00,
+      "description": "Set of precision craft knives with interchangeable blades, suitable for cutting paper, cardboard, and lightweight materials.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/23elti6f83.jpg"
+    },
+    {
+      "name": "Canvas Panels Set",
+      "id": "CPS_56789",
+      "price": 9.00,
+      "description": "Set of canvas panels for painting and mixed media artwork, pre-primed and ready to use.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/3ebeu8r484.jpg"
+    },
+    {
+      "name": "Colored Pencil Set",
+      "id": "CPS_67890",
+      "price": 6.00,
+      "description": "Set of colored pencils in assorted colors, ideal for coloring, shading, and blending.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/9j66k9it7s.jpg"
+    },
+    {
+      "name": "Craft Beads Kit",
+      "id": "CBK_90123",
+      "price": 8.50,
+      "description": "Kit of assorted craft beads in various shapes, sizes, and colors, perfect for jewelry making and DIY crafts.",
+      "sale": false,
+      "img": ""
+    }
+  ]
+  

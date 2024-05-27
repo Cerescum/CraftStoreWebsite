@@ -166,7 +166,7 @@
   </div>
 
   <div class="d-flex justify-content-evenly flex-wrap">
-    <a>
+    <a href="/#/products">
       <svg width="166" height="184" viewBox="0 0 166 184" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_898_1336)">
 <rect x="24" y="20" width="118" height="118" rx="59" fill="#FBF9F9"/>
@@ -356,12 +356,12 @@
       <li>Regular delivery schedules ensure a consistent supply of essential office supplies</li>
       <li>The delivery service use eco-friendly packaging and transportation methods</li>
       <li>Discounts on bulk orders</li>
-    </ul>
-    <button class="w-100 btn btn-primary mt-4 p-3">
-      <a href="/#/delivery" class="text-light no-underline">find out more</a>
-    </button>
+    </ul>  
+    <a href="/#/delivery" class="text-light no-underline w-100 btn btn-primary mt-4 p-3">
+        find out more
+    </a>
   </div>
-  <span class="d-flex justify-content-end tracking-wide">
+  <span class="d-flex justify-content-end tracking-wide hover:none">
     <svg width="540" height="424" viewBox="0 0 540 424" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect y="12" width="540" height="377" rx="4" fill="#D2ACAD" fill-opacity="0.5"/>
 <g clip-path="url(#clip0_878_793)">

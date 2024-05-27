@@ -38,6 +38,12 @@ export default {
     .border-warning-30{
       border: 1px solid rgba(228, 200, 156, 0.5) !important;
     }
+    .bg-warning-20{
+      background-color: rgba(228, 200, 156, 0.2) !important;
+    }
+    .border-warning{
+      border: 1px solid rgb(228, 200, 156) !important;
+    }
     .text-dark{
         color: #272727 !important;
     }
@@ -64,5 +70,25 @@ export default {
     .btn-outline-primary{
         background-color: none !important;
         outline: #9E402C !important;
+    }
+    .btn {
+        &:hover {
+        background-color: rgba(158, 65, 44, 0.3) !important;
+        color: #272727 !important;
+        }
+        &:focus {
+        background-color: rgba(158, 65, 44, 0.3) !important;
+        color: #272727 !important;
+        }
+        &.active {
+        &:hover {
+            background-color: rgba(158, 65, 44, 0.4) !important;
+            color: #272727 !important;
+        }
+        &:focus {
+            background-color: rgba(158, 65, 44, 0.3) !important;
+            color: #272727 !important;
+        }
+        }
     }
 </style>

@@ -1,0 +1,83 @@
+[
+    {
+      "name": "Gel Ink Pens Set",
+      "id": "GP_65824",
+      "price": 4.00,
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/yunosuo7mc.jpg",
+      "description": "Set of smooth gel ink pens in assorted colors, perfect for writing, note-taking, and journaling."
+    },
+    {
+      "name": "Classic Wooden Pencils",
+      "id": "WP_45678",
+      "price": 2.50,
+      "description": "Pack of classic wooden pencils with HB lead, ideal for sketching, drawing, and writing.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/Papetarie/creioane%20wood/M61A0201-300x300.jpg"
+    },
+    {
+      "name": "Fine Point Markers Set",
+      "id": "MP_78901",
+      "price": 6.00,
+      "description": "Set of fine point markers in vibrant colors, great for coloring, highlighting, and labeling.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/Pix/DSC_5690-300x300.jpg"
+    },
+    {
+      "name": "Rollerball Pens Pack",
+      "id": "RP_12345",
+      "price": 5.50,
+      "description": "Pack of rollerball pens with smooth ink flow and quick-drying properties, suitable for writing and drawing.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/Pix/DSC_5642-300x300.jpg"
+    },
+    {
+      "name": "Calligraphy Pen Set",
+      "id": "CP_23456",
+      "price": 8.00,
+      "description": "Set of calligraphy pens with assorted nib sizes, perfect for creating elegant lettering and decorative scripts.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/bts/pixxx/IMG_2171-300x300.jpg"
+    },
+    {
+      "name": "Fountain Pen",
+      "id": "FP_78910",
+      "price": 12.00,
+      "description": "Classic fountain pen with a stainless steel nib and refillable ink cartridge, ideal for formal writing and signatures.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/bt09omvp_h.jpg"
+    },
+    {
+      "name": "Mechanical Pencils Set",
+      "id": "MP_34567",
+      "price": 3.50,
+      "description": "Set of mechanical pencils with retractable lead and built-in erasers, convenient for precise writing and sketching.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/rsfz958zn0.jpg"
+    },
+    {
+      "name": "Highlighter Pens Set",
+      "id": "HP_56789",
+      "price": 3.00,
+      "description": "Set of highlighter pens in assorted neon colors, perfect for emphasizing important text and notes.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/4dgg4n45ei.jpg"
+    },
+    {
+      "name": "Whiteboard Markers Set",
+      "id": "WM_67890",
+      "price": 7.00,
+      "description": "Set of whiteboard markers with low-odor, non-toxic ink, suitable for writing and drawing on whiteboards and dry erase surfaces.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/inpi2300mg.jpg"
+    },
+    {
+      "name": "Graphite Drawing Pencils Set",
+      "id": "DP_90123",
+      "price": 9.00,
+      "description": "Set of graphite drawing pencils with assorted lead hardness grades, ideal for sketching, shading, and technical drawing.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/ikp_0d0bzi.jpg"
+    }
+  ]
+  

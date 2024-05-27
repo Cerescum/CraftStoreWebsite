@@ -2,7 +2,7 @@
     <Header/>
     <section class="mx-16 my-32">
         <h2 class="text-center">Delivery</h2>
-        <p class="text-center text-black-50">home / delivery</p> <!-- path -->
+        <p class="text-center text-black-50">home / delivery</p>
 
         <div class="d-flex justify-content-between align-items-center">
             <p class="w-6/12">At Penpal, we understand the joy of receiving your carefully chosen stationery supplies. That's why our delivery process is infused with sweetness and care, ensuring your package arrives as if hand-delivered by a friend.

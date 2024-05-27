@@ -1,0 +1,83 @@
+[
+    {
+      "name": "Meshu Alligators Blue Pen",
+      "id": "MS_65824",
+      "price": 1.50,
+      "description": "The Meshu pen will be a bright attribute of a great mood at work or study. The elegant body of the pen is complemented by a cute toy.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/Papetarie/clei/IMG_4518-300x300.jpg"
+    },
+    {
+      "name": "Rainbow Sticky Notes",
+      "id": "RN_45678",
+      "price": 3.00,
+      "description": "Colorful sticky notes perfect for jotting down quick reminders or messages.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/111Jenia/Penale/9-300x300.jpg"
+    },
+    {
+      "name": "Patterned Binder Clips",
+      "id": "BC_78901",
+      "price": 2.50,
+      "description": "Decorative binder clips with various patterns to add a touch of style to your documents.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/Papetarie/radiere/unicorn/M61A4335-300x300.jpg"
+    },
+    {
+      "name": "Assorted Highlighters Set",
+      "id": "HS_12345",
+      "price": 5.00,
+      "description": "Set of vibrant highlighters in assorted colors, ideal for marking important points in notes or textbooks.",
+      "sale": false,
+      "img": "https://kawaiicat.md/image/cache/catalog/Penare/panare/DSC_8498-300x300.jpg"
+    },
+    {
+      "name": "Cute Animal Erasers",
+      "id": "ER_23456",
+      "price": 2.00,
+      "description": "Adorable animal-shaped erasers to make correcting mistakes fun and enjoyable.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/7kduk7pz71.jpg"
+    },
+    {
+      "name": "Colorful Pencils Pack",
+      "id": "PC_78910",
+      "price": 4.00,
+      "description": "Pack of 12 colored pencils in assorted vibrant colors, perfect for art projects or highlighting notes.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/0umorz37i5.jpg"
+    },
+    {
+      "name": "Mathematics Compass",
+      "id": "CM_34567",
+      "price": 3.50,
+      "description": "Precision mathematics compass for drawing circles and arcs in geometry and trigonometry.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/6abohrzlp9.jpg"
+    },
+    {
+      "name": "Geometry Set",
+      "id": "GS_56789",
+      "price": 6.00,
+      "description": "Complete geometry set including rulers, protractors, and triangles, ideal for geometry classes and technical drawing.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/u1ifdb59u_.jpg"
+    },
+    {
+      "name": "Scientific Calculator",
+      "id": "SC_67890",
+      "price": 9.00,
+      "description": "Advanced scientific calculator with functions for algebra, trigonometry, calculus, and statistics.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/hdrkjla282.jpg"
+    },
+    {
+      "name": "Composition Notebook",
+      "id": "CN_90123",
+      "price": 2.50,
+      "description": "Standard composition notebook with wide-ruled paper, suitable for taking notes or journaling.",
+      "sale": false,
+      "img": "https://shopshop.md/upload/catalog/products/thumbs/h_j3_zs_pu.jpg"
+    }
+  ]
+  
