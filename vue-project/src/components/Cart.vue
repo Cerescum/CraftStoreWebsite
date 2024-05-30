@@ -15,27 +15,27 @@
             <hr>
         </div>
 
-        <div id="cart-products" class="py-3 border-bottom border-slate-700 d-flex w-100">
-            <img src="" alt="" class="w-40 bg-primary col-2">
+        <div v-for="(x,index) in content" class="cart-products py-3 border-bottom border-slate-700 d-flex w-100">
+            <img :src="x[1]" alt="" class="w-40 bg-primary col-2">
             <span class="p-4 col-5">
-                <h4>Product name</h4>
-                <a href="" class="text-primary">remove</a>
+                <h4>{{x[0]}}</h4>
+                <a @click="removeItem(index)" class="text-primary">remove</a>
             </span>
             <span class="col-5 d-flex justify-content-between align-items-center">
-                <p class="text-left m-0">$ <span class="prod-price">9.99</span></p>
+                <p class="text-left m-0">$ <span class="prod-price">{{x[2]}}</span></p>
                 <div class="flex gap-2">
-                            <button class="border-none bg-transparent">+</button>
-                            <p class="m-0">1</p>
-                            <button class="border-none bg-transparent">-</button>
+                            <button class="border-none bg-transparent" @click="x[3] < 20 ? x[3]++ : x[3]">+</button>
+                            <p class="m-0">{{x[3]}}</p>
+                            <button class="border-none bg-transparent" @click="x[3] > 0 ? x[3]-- : x[3]">-</button>
                 </div>
-                <p class="text-right m-0">$ <span class="prod-total">9.99</span></p>
+                <p class="text-right m-0">$ <span class="prod-total">{{x[2]*x[3]}}</span></p>
             </span>
         </div>
 
         <div class="d-flex gap-5 justify-content-end mt-5 align-items-center">
             <span class="d-flex gap-4">
                 <p class="m-0">subtotal</p>
-                <p class="m-0">$ <span>9.99</span></p>
+                <p class="m-0">$ <span>{{ sum }}</span></p>
             </span>
             <button class="btn btn-primary">
                 <a href="/#/checkout" class="text-light no-underline">
@@ -55,6 +55,34 @@ export default {
     name: 'Cart',
     components: {
         Header, Footer
+    },
+    data() {
+        return {
+            content: [],
+            sum: 0,
+        }
+    },
+    mounted(){
+        this.content = JSON.parse(localStorage.getItem('infoProducts'));
+        this.$nextTick(() => {
+            this.subtotal();
+        })
+    },
+    methods: {
+        removeItem(i){
+            document.querySelectorAll('.cart-products')[i].remove();
+            this.subtotal();
+            content.splice(i, 1);
+            localStorage.setItem("infoProducts", JSON.stringify(content));
+        },
+        subtotal() {
+            this.sum = 0;
+            const elements = Array.from(document.querySelectorAll('.prod-total'));
+            for (let i=0; i<elements.length; i++) {
+                let number = parseFloat(elements[i].textContent.trim());
+                this.sum += number;
+            }   
+        }
     }
 }
 </script>

@@ -60,7 +60,7 @@
       "id": "HP_56789",
       "price": 3.00,
       "description": "Set of highlighter pens in assorted neon colors, perfect for emphasizing important text and notes.",
-      "sale": false,
+      "sale": true,
       "img": "https://shopshop.md/upload/catalog/products/thumbs/4dgg4n45ei.jpg"
     },
     {
@@ -68,7 +68,7 @@
       "id": "WM_67890",
       "price": 7.00,
       "description": "Set of whiteboard markers with low-odor, non-toxic ink, suitable for writing and drawing on whiteboards and dry erase surfaces.",
-      "sale": false,
+      "sale": true,
       "img": "https://shopshop.md/upload/catalog/products/thumbs/inpi2300mg.jpg"
     },
     {
@@ -76,7 +76,7 @@
       "id": "DP_90123",
       "price": 9.00,
       "description": "Set of graphite drawing pencils with assorted lead hardness grades, ideal for sketching, shading, and technical drawing.",
-      "sale": false,
+      "sale": true,
       "img": "https://shopshop.md/upload/catalog/products/thumbs/ikp_0d0bzi.jpg"
     }
   ]

@@ -1,5 +1,5 @@
 <template>
-    <header class="d-flex justify-content-between px-5 py-2 border-bottom border-warning-30 align-items-center fixed-top bg-white-50">
+    <header class="d-flex justify-content-between px-3 sm:px-5 py-2 border-bottom border-warning-30 align-items-center fixed-top bg-white-50">
 
         <span id="logo-header">
           <a href="/#/" class="d-flex gap-2 align-items-center no-underline">
@@ -11,14 +11,6 @@
           </a>
         </span>
 
-        <form action="" class="input-group w-50 h-9">
-            <input type="text" class="form-control form-control-sm border-transparent" placeholder="search your product...">
-            <span class="input-group-text">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 18 18" fill="none">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6375 12.2932C15.965 9.30405 15.7547 4.97949 13.0069 2.23163C10.0314 -0.743876 5.20713 -0.743876 2.23163 2.23163C-0.743876 5.20713 -0.743876 10.0314 2.23163 13.0069C4.97949 15.7547 9.30405 15.965 12.2932 13.6375C12.3061 13.6521 12.3195 13.6664 12.3334 13.6803L16.3741 17.721C16.7461 18.093 17.3491 18.093 17.721 17.721C18.093 17.3491 18.093 16.7461 17.721 16.3741L13.6803 12.3334C13.6664 12.3195 13.6521 12.3061 13.6375 12.2932ZM11.66 3.57853C13.8916 5.81016 13.8916 9.42834 11.66 11.66C9.42834 13.8916 5.81016 13.8916 3.57853 11.66C1.34691 9.42834 1.34691 5.81016 3.57853 3.57853C5.81016 1.34691 9.42834 1.34691 11.66 3.57853Z" fill="black"/> </svg>
-            </span>
-        </form>
-
         <span class="d-flex gap-4">
             <p class="m-0 d-flex align-self-middle">
                 <a class="text-decoration-underline text-dark">en</a> / <a class="text-black-50 text-decoration-none">ro</a>
@@ -28,7 +20,7 @@
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"> <path d="M8.92999 8.5C8.92999 9.36195 9.2724 10.1886 9.8819 10.7981C10.4914 11.4076 11.318 11.75 12.18 11.75C13.0419 11.75 13.8686 11.4076 14.4781 10.7981C15.0876 10.1886 15.43 9.36195 15.43 8.5C15.43 7.63805 15.0876 6.8114 14.4781 6.2019C13.8686 5.59241 13.0419 5.25 12.18 5.25C11.318 5.25 10.4914 5.59241 9.8819 6.2019C9.2724 6.8114 8.92999 7.63805 8.92999 8.5Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
                     <path d="M17.236 16.75C16.8625 15.7239 16.1824 14.8376 15.2879 14.2114C14.3934 13.5851 13.3279 13.2491 12.236 13.2491C11.1441 13.2491 10.0786 13.5851 9.18415 14.2114C8.28968 14.8376 7.60954 15.7239 7.23602 16.75" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12.0945" cy="11.5" r="9.75" stroke="black" stroke-width="1.5"/></svg>
                 </span>
-                <p class="text-black-50 m-0">my account</p>
+                <p class="text-black-50 m-0 hidden sm:block">my account</p>
               </a>
             <a href="/#/cart">
                 <span>
@@ -43,7 +35,7 @@
 
 <script>
 export default {
-    name: 'Header'
+    name: 'Header',
 }
 </script>
 

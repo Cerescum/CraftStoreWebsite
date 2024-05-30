@@ -60,7 +60,7 @@
       "id": "GPP_56789",
       "price": 3.50,
       "description": "Pad of graph paper with grid lines, suitable for graphing, plotting, and mathematical calculations.",
-      "sale": false,
+      "sale": true,
       "img": "https://kawaiicat.md/image/cache/catalog/Papetarie/bloknot/a1%20mikirei%20series/M61A5528-300x300.jpg"
     },
     {
@@ -68,7 +68,7 @@
       "id": "TPR_67890",
       "price": 9.00,
       "description": "Roll of tracing paper for sketching, tracing, and transferring designs.",
-      "sale": false,
+      "sale": true,
       "img": "https://kawaiicat.md/image/cache/catalog/Papetarie/caiet%20b5/00%20Good%20Day/0116-300x300.jpg"
     },
     {
@@ -76,7 +76,7 @@
       "id": "PP_90123",
       "price": 10.00,
       "description": "Pack of glossy photo paper for printing high-quality photographs.",
-      "sale": false,
+      "sale": true,
       "img": "https://kawaiicat.md/image/cache/catalog/Papetarie/caiet%20b5/M61A0640-300x300.jpg"
     }
   ]

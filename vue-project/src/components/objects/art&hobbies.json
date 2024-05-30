@@ -60,7 +60,7 @@
       "id": "CPS_56789",
       "price": 9.00,
       "description": "Set of canvas panels for painting and mixed media artwork, pre-primed and ready to use.",
-      "sale": false,
+      "sale": true,
       "img": "https://shopshop.md/upload/catalog/products/thumbs/3ebeu8r484.jpg"
     },
     {
@@ -68,7 +68,7 @@
       "id": "CPS_67890",
       "price": 6.00,
       "description": "Set of colored pencils in assorted colors, ideal for coloring, shading, and blending.",
-      "sale": false,
+      "sale": true,
       "img": "https://shopshop.md/upload/catalog/products/thumbs/9j66k9it7s.jpg"
     },
     {
@@ -76,7 +76,7 @@
       "id": "CBK_90123",
       "price": 8.50,
       "description": "Kit of assorted craft beads in various shapes, sizes, and colors, perfect for jewelry making and DIY crafts.",
-      "sale": false,
+      "sale": true,
       "img": ""
     }
   ]

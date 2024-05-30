@@ -52,7 +52,7 @@
       "id": "DL_34567",
       "price": 15.00,
       "description": "Adjustable desk lamp with multiple brightness levels and a flexible gooseneck for directing light where needed.",
-      "sale": false,
+      "sale": true,
       "img": "https://shopshop.md/upload/catalog/products/thumbs/xj6c8_9bah.jpg"
     },
     {
@@ -60,7 +60,7 @@
       "id": "DC_56789",
       "price": 5.00,
       "description": "Desktop calendar with monthly and weekly views, perfect for keeping track of appointments, deadlines, and meetings.",
-      "sale": false,
+      "sale": true,
       "img": "https://shopshop.md/upload/catalog/products/thumbs/ivul192f7k.jpg"
     }
 ]

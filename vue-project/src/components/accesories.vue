@@ -4,14 +4,21 @@
         <header class="d-flex justify-content-between align-items-center">
             <div>
                 <h2>Products</h2>
-                <p class="text-black-50">home / products / <span></span></p>
+                <p class="text-black-50">home / products / accesories</p>
             </div>
 
-            <div>
+            <form action="" class="input-group w-50 h-9">
+                <input type="text" class="form-control form-control-sm border-transparent" v-model="search" placeholder="search your product...">
+                <span class="input-group-text">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 18 18" fill="none">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6375 12.2932C15.965 9.30405 15.7547 4.97949 13.0069 2.23163C10.0314 -0.743876 5.20713 -0.743876 2.23163 2.23163C-0.743876 5.20713 -0.743876 10.0314 2.23163 13.0069C4.97949 15.7547 9.30405 15.965 12.2932 13.6375C12.3061 13.6521 12.3195 13.6664 12.3334 13.6803L16.3741 17.721C16.7461 18.093 17.3491 18.093 17.721 17.721C18.093 17.3491 18.093 16.7461 17.721 16.3741L13.6803 12.3334C13.6664 12.3195 13.6521 12.3061 13.6375 12.2932ZM11.66 3.57853C13.8916 5.81016 13.8916 9.42834 11.66 11.66C9.42834 13.8916 5.81016 13.8916 3.57853 11.66C1.34691 9.42834 1.34691 5.81016 3.57853 3.57853C5.81016 1.34691 9.42834 1.34691 11.66 3.57853Z" fill="black"/> </svg>
+                </span>
+            </form>
 
+            <div>
                 <form action="" class="gap-3">
-                    <div class="d-flex gap-2 align-items-center"><label for="min-price" class="w-50">min : <span>10</span></label> <input type="range" id="min-price" class="m-1"></div>
-                    <div class="d-flex gap-2 align-items-center"><label for="max-price" class="w-50">max : <span>30</span></label> <input type="range" id="max-price" class="m-1"></div>
+                    <div class="d-flex gap-2 align-items-center"><label for="min-price" class="w-50">min : <span>{{ minPrice }}</span></label> <input type="range" id="min-price" v-model="minPrice" class="m-1 w-75"></div>
+                    <div class="d-flex gap-2 align-items-center"><label for="max-price" class="w-50">max : <span>{{ maxPrice }}</span></label> <input type="range" id="max-price" v-model="maxPrice" class="m-1 w-75"></div>
                 </form>
             </div>
         </header>
@@ -133,22 +140,22 @@
                     <div v-if="x.sale">
                         <div class="w-64 bg-warning-20 p-2 pb-0">
                             <img :src="x.img" alt="">
-                            <h4 class="my-2">{{x.name}}</h4>
+                            <h4 class="my-2 w-11/12">{{x.name}}</h4>
                             <p class="text-black-50 m-0 py-1">{{x.id}}</p>
                         </div>
-                        <button class="btn btn-primary text-light w-100 p-2 rounded-0"><span>{{x.price}}</span>$ | add to cart</button>
+                        <button class="btn btn-primary text-light w-100 p-2 rounded-0" @click="toProduct(index)"><span>{{x.price}}</span>$ | add to cart</button>
                     </div>
                 </div>
             </section>
             <section class="d-flex flex-wrap justify-content-between w-100">
-                <div class="col-3 d-flex justify-content-center my-4" v-for="(x, index) in accesories">
+                <div class="col-3 d-flex justify-content-center my-4" v-for="(x, index) in filteredProducts">
                     <div v-if="!x.sale">
                         <div class="w-64 bg-warning-20 p-2 pb-0">
                             <img :src="x.img" alt="">
-                            <h4 class="my-2">{{x.name}}</h4>
+                            <h4 class="my-2 w-11/12">{{x.name}}</h4>
                             <p class="text-black-50 m-0 py-1">{{x.id}}</p>
                         </div>
-                        <button class="btn btn-primary text-light w-100 p-2 rounded-0"><span>{{x.price}}</span>$ | add to cart</button>
+                        <button class="btn btn-primary text-light w-100 p-2 rounded-0" @click="toProduct(index)"><span>{{x.price}}</span>$ | add to cart</button>
                     </div>
                 </div>
                 
@@ -162,14 +169,38 @@
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import accesories from '@/components/objects/accesories.json'
+
 export default {
-    name: 'ProductList',
+    name: 'Accesories',
     components: {
         Header, Footer
-    }, 
+    },
     data() {
         return {
-            accesories
+            accesories,
+            search: '',
+            minPrice: 0,
+            maxPrice: 100
+        };
+    },
+    computed: {
+        filteredProducts() {
+            return this.accesories.filter(product => {
+                const searchTerm = this.search.toLowerCase();
+                const priceInRange = product.price >= this.minPrice && product.price <= this.maxPrice;
+                return (product.name.toLowerCase().includes(searchTerm) && priceInRange);
+            });
+        }
+    },
+    methods: {
+        toProduct(x){
+                localStorage.setItem("name", accesories[x].name);
+                localStorage.setItem("id", accesories[x].id);
+                localStorage.setItem("price", accesories[x].price);
+                localStorage.setItem("descriprion", accesories[x].description);
+                localStorage.setItem("img", accesories[x].img);
+                localStorage.setItem("sale", accesories[x].sale);
+                return window.location.href = '/#/product';
         }
     }
 }

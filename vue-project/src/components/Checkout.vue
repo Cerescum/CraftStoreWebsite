@@ -1,6 +1,6 @@
 <template>
     <Header/>
-    <section class="w-3/5 py-40 align-items-center" style="margin: 0 auto">
+    <section class="sm:w-3/5 px-3 sm:px-0 py-40 align-items-center" style="margin: 0 auto">
         <h2 class="text-center">Check out</h2>
         <a href="" class="text-primary d-flex justify-content-center">Cancel</a>
         <form action="">
@@ -9,7 +9,7 @@
         <div class="w-100 mt-24">
             <form action="" class="">
                 <input type="text" id="customer-email" autocomplete="given-name" class="w-full rounded-md border-0 text-gray-900 p-2 ring-yellow-100 bg-light focus:outline-none border-bottom" placeholder="email">
-                <div class="d-flex gap-3">
+                <div class="sm:flex gap-3">
                     <span class="col-6">
                         <input type="text" id="customer-name" autocomplete="given-name" class="w-full rounded-md border-0 text-gray-900 p-2 ring-yellow-100 bg-light focus:outline-none border-bottom mt-3" placeholder="name">
                         <input type="text" id="customer-surname" autocomplete="given-name" class="w-full rounded-md border-0 text-gray-900 p-2 ring-yellow-100 bg-light focus:outline-none border-bottom mt-3" placeholder="surname">

@@ -68,7 +68,7 @@
       "id": "SC_67890",
       "price": 9.00,
       "description": "Advanced scientific calculator with functions for algebra, trigonometry, calculus, and statistics.",
-      "sale": false,
+      "sale": true,
       "img": "https://shopshop.md/upload/catalog/products/thumbs/hdrkjla282.jpg"
     },
     {
@@ -76,7 +76,7 @@
       "id": "CN_90123",
       "price": 2.50,
       "description": "Standard composition notebook with wide-ruled paper, suitable for taking notes or journaling.",
-      "sale": false,
+      "sale": true,
       "img": "https://shopshop.md/upload/catalog/products/thumbs/h_j3_zs_pu.jpg"
     }
   ]
