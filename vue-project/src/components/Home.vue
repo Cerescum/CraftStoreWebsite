@@ -128,7 +128,7 @@
       </svg>
     </span>
 
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div class="m-auto m-0 carousel slide" data-bs-ride="carousel">
       <div class="carousel-indicators hidden sm:block">
         <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
         <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>

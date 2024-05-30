@@ -1,14 +1,14 @@
 <template>
     <Header/>
-    <section class="gap-20 my-40 justify-content-center align-items-center d-xl-flex">
-        <img :src="productImg" alt="" class="w-1/3">
+    <section class="mx-6 sm:m-0 sm:gap-20 my-24 sm:my-40 sm:flex justify-content-center align-items-center">
+        <img :src="productImg" alt="" class="sm:w-1/3">
 
-        <div class="w-1/3">
-            <h2 class="mb-3">{{productName}}</h2>
+        <div class="sm:w-1/3">
+            <h2 class="my-3">{{productName}}</h2>
 
-            <div class="d-flex justify-content-between gap-16">
-                <div>
-                    <h4 class="d-flex text-primary mb-4">$ <span>{{productPrice}}</span></h4>
+            <div class="sm:flex justify-content-between gap-16">
+                <div class="flex justify-content-around align-items-center sm:block">
+                    <h4 class="d-flex text-primary sm:mb-4">$ <span>{{productPrice}}</span></h4>
                     <div>
                         <p class="m-0">Quantity</p>
                         <div class="flex gap-2 p-1 border-primary">
@@ -18,7 +18,7 @@
                         </div>
                     </div>
                 </div>
-                <div>
+                <div class="mt-6 sm:mt-0">
                     <form action="">
                         <input type="radio" name="purchase" id="one-time"> <label for="one-time">One time purchase</label> <br>
                         <input type="radio" name="purchase" id="subscribtion"> <label for="subscribtion">Subscribe & delivery every month </label> <br>

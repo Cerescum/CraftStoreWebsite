@@ -136,7 +136,7 @@
 </clipPath>
 </defs>
                 </svg>
-                <div id="on-sale-items" class="d-flex justify-content-end" v-for="(x, index) in artHobbies">
+                <div id="on-sale-items" class="d-flex justify-content-end scale-50" v-for="(x, index) in artHobbies">
                     <div v-if="x.sale">
                         <div class="w-64 bg-warning-20 p-2 pb-0">
                             <img :src="x.img" alt="">
@@ -148,7 +148,7 @@
                 </div>
             </section>
             <section class="d-flex flex-wrap justify-content-between w-100">
-                <div class="col-3 d-flex justify-content-center my-4" v-for="(x, index) in filteredProducts">
+                <div class="col-3 d-flex justify-content-center my-4 scale-50" v-for="(x, index) in filteredProducts">
                     <div v-if="!x.sale">
                         <div class="w-64 bg-warning-20 p-2 pb-0">
                             <img :src="x.img" alt="">

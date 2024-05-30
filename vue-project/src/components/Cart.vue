@@ -5,7 +5,7 @@
         <h2 class="text-center">Your cart items</h2>
         <a href="" class="text-primary d-flex justify-content-center">Back to shopping</a>
 
-        <div class="mt-24">
+        <div class="mt-24 hidden sm:d-block">
             <ul class="list-unstyled d-flex">
                 <li class="col-7">Product</li>
                 <li class="col-2 text-left">Price</li>
@@ -15,13 +15,13 @@
             <hr>
         </div>
 
-        <div v-for="(x,index) in content" class="cart-products py-3 border-bottom border-slate-700 d-flex w-100">
-            <img :src="x[1]" alt="" class="w-40 bg-primary col-2">
+        <div v-for="(x,index) in content" class="cart-products py-3 border-bottom border-slate-700 sm:flex w-100">
+            <img :src="x[1]" alt="" class="sm:w-40 bg-primary sm:col-2">
             <span class="p-4 col-5">
                 <h4>{{x[0]}}</h4>
                 <a @click="removeItem(index)" class="text-primary">remove</a>
             </span>
-            <span class="col-5 d-flex justify-content-between align-items-center">
+            <span class="col-5 mt-6 sm:mt-0 d-flex justify-content-between align-items-center">
                 <p class="text-left m-0">$ <span class="prod-price">{{x[2]}}</span></p>
                 <div class="flex gap-2">
                             <button class="border-none bg-transparent" @click="x[3] < 20 ? x[3]++ : x[3]">+</button>

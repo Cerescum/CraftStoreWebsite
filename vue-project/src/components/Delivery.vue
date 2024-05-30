@@ -1,13 +1,13 @@
 <template>
     <Header/>
-    <section class="mx-16 my-32">
+    <section class="mx-6 sm:mx-16 my-32">
         <h2 class="text-center">Delivery</h2>
         <p class="text-center text-black-50">home / delivery</p>
 
-        <div class="d-flex justify-content-between align-items-center">
-            <p class="w-6/12">At Penpal, we understand the joy of receiving your carefully chosen stationery supplies. That's why our delivery process is infused with sweetness and care, ensuring your package arrives as if hand-delivered by a friend.
+        <div class="d-flex flex-col-reverse sm:flex-row justify-content-between align-items-center">
+            <p class="sm:w-6/12">At Penpal, we understand the joy of receiving your carefully chosen stationery supplies. That's why our delivery process is infused with sweetness and care, ensuring your package arrives as if hand-delivered by a friend.
                 <br> Your satisfaction is our top priority. If there's anything you need assistance with or if you have any special requests, our friendly customer support team is just a message away.</p>
-            <svg  class="w-4/12" width="540" height="390" viewBox="0 0 540 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg  class="w-full sm:w-4/12" width="540" height="390" viewBox="0 0 540 390" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect y="13" width="540" height="377" rx="4" fill="#D2ACAD" fill-opacity="0.5"/>
 <g clip-path="url(#clip0_878_793)">
 <path d="M234.133 158.833C233.698 158.882 233.301 159.102 233.028 159.444C232.756 159.786 232.63 160.222 232.679 160.657C232.679 160.657 233.826 170.852 235.297 181.736C236.033 187.178 236.85 192.793 237.648 197.412C238.446 202.031 239.085 205.441 239.988 207.35C240.175 207.746 240.511 208.05 240.922 208.198C241.334 208.345 241.787 208.323 242.182 208.136C242.577 207.949 242.882 207.613 243.03 207.201C243.177 206.789 243.155 206.336 242.969 205.94C242.583 205.124 241.683 201.399 240.897 196.85C240.111 192.301 239.298 186.713 238.565 181.294C237.1 170.454 235.955 160.288 235.955 160.288C235.906 159.853 235.687 159.456 235.345 159.183C235.003 158.91 234.567 158.785 234.133 158.833Z" fill="black"/>
@@ -74,8 +74,8 @@
 </defs>
             </svg>
         </div>
-        <div class="d-flex justify-content-between align-items-center">
-            <svg  class="w-4/12" width="540" height="408" viewBox="0 0 540 408" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="sm:flex justify-content-between align-items-center">
+            <svg  class="w-full sm:w-4/12" width="540" height="408" viewBox="0 0 540 408" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect y="12" width="540" height="377" rx="4" fill="#D2ACAD" fill-opacity="0.5"/>
 <g clip-path="url(#clip0_878_793)">
 <path d="M250.575 52.0396C247.509 52.2209 244.257 54.0141 243.278 57.7203C242.045 62.39 244.637 66.6696 248.507 68.3491C252.377 70.0287 257.576 69.1972 261.451 64.7706C261.6 64.6008 261.714 64.4033 261.786 64.1893C261.859 63.9753 261.889 63.7489 261.875 63.5232C261.861 63.2975 261.802 63.0769 261.703 62.8739C261.604 62.6708 261.466 62.4894 261.297 62.34C261.129 62.1905 260.932 62.076 260.719 62.0029C260.506 61.9298 260.281 61.8996 260.057 61.9139C259.832 61.9283 259.613 61.987 259.411 62.0867C259.209 62.1863 259.029 62.325 258.88 62.4948C255.831 65.9777 252.392 66.2837 249.864 65.1869C247.337 64.0901 245.776 61.6799 246.588 58.6038C247.192 56.3193 248.687 55.6005 250.776 55.477C252.866 55.3535 255.358 56.2489 256.514 57.2692C256.856 57.5703 257.302 57.7228 257.755 57.693C258.208 57.6633 258.631 57.4537 258.931 57.1104C259.23 56.7671 259.382 56.3182 259.352 55.8625C259.323 55.4068 259.114 54.9816 258.773 54.6803C256.714 52.8643 253.642 51.8577 250.575 52.039V52.0396Z" fill="black"/>
@@ -135,13 +135,13 @@
 </clipPath>
 </defs>
             </svg>
-            <p class="w-6/12 text-right">Your package is swiftly handed over to our trusted shipping partners, who specialize in speedy deliveries. With our express shipping option, your stationery goodies are fast-tracked to reach your doorstep in the blink of the eye
+            <p class="sm:w-6/12 sm:text-right">Your package is swiftly handed over to our trusted shipping partners, who specialize in speedy deliveries. With our express shipping option, your stationery goodies are fast-tracked to reach your doorstep in the blink of the eye
             <br> As your package nears its destination, we eagerly anticipate the moment it will arrive at your doorstep. Whether it's a small envelope of delicate stickers or a box bursting with colorful notebooks, we know it will bring a smile to your face.</p>
         </div>
-        <div class="d-flex justify-content-between align-items-center">
-            <p class="w-6/12">From the moment you place your order to the moment it arrives at your doorstep, we handle your package with the care and attention it deserves. Because at Penpal, we understand that every item is more than just stationery – it's a piece of inspiration waiting to be unleashed.
+        <div class="d-flex flex-col-reverse sm:flex-row justify-content-between align-items-center">
+            <p class="sm:w-6/12">From the moment you place your order to the moment it arrives at your doorstep, we handle your package with the care and attention it deserves. Because at Penpal, we understand that every item is more than just stationery – it's a piece of inspiration waiting to be unleashed.
             <br> <br> Thank you for choosing Penpal. We look forward to serving you again soon!</p>
-            <svg  class="w-4/12" width="540" height="392" viewBox="0 0 540 392" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg  class="w-full sm:w-4/12" width="540" height="392" viewBox="0 0 540 392" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect y="15" width="540" height="377" rx="4" fill="#D2ACAD" fill-opacity="0.5"/>
 <g clip-path="url(#clip0_878_793)">
 <path d="M305.44 124.535C303.565 124.702 301.592 125.466 299.93 127.221C299.635 127.533 299.475 127.95 299.487 128.38C299.499 128.81 299.68 129.217 299.992 129.513C300.304 129.809 300.721 129.968 301.151 129.957C301.581 129.945 301.988 129.764 302.284 129.452C303.827 127.822 305.229 127.597 306.925 127.776C308.622 127.956 310.476 128.719 312.255 129.242C313.451 129.594 314.883 129.635 316.681 129.623C318.478 129.61 320.574 129.497 322.735 129.337C327.057 129.018 331.642 128.511 334.399 128.239C334.611 128.219 334.816 128.156 335.004 128.056C335.192 127.956 335.358 127.819 335.493 127.654C335.628 127.49 335.729 127.3 335.791 127.096C335.853 126.893 335.874 126.678 335.853 126.467C335.832 126.255 335.77 126.049 335.669 125.861C335.569 125.673 335.433 125.507 335.268 125.372C335.104 125.237 334.914 125.135 334.71 125.074C334.506 125.012 334.293 124.991 334.081 125.012C331.282 125.287 326.734 125.79 322.496 126.104C320.377 126.26 318.336 126.369 316.659 126.38C314.983 126.391 313.603 126.258 313.169 126.13C311.686 125.695 309.617 124.8 307.267 124.552C306.679 124.489 306.065 124.478 305.44 124.534L305.44 124.535Z" fill="black"/>

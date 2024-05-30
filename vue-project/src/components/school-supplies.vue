@@ -1,13 +1,13 @@
 <template>
     <Header/>
-    <section class="mt-24 sm:mx-32">
+    <section class="mt-24 mx-6 sm:mx-32">
         <header class="sm:flex justify-content-between align-items-center">
             <div>
                 <h2>Products</h2>
                 <p class="text-black-50">home / products / school supplies</p>
             </div>
 
-            <form action="" class="input-group w-50 h-9">
+            <form action="" class="input-group sm:w-50 h-9">
                 <input type="text" class="form-control form-control-sm border-transparent" v-model="search" placeholder="search your product...">
                 <span class="input-group-text">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 18 18" fill="none">
@@ -16,15 +16,15 @@
             </form>
 
             <div>
-                <form action="" class="gap-3">
+                <form action="" class="gap-3 my-3 sm:mt-0">
                     <div class="d-flex gap-2 align-items-center"><label for="min-price" class="w-50">min : <span>{{ minPrice }}</span></label> <input type="range" id="min-price" class="m-1 w-75"></div>
                     <div class="d-flex gap-2 align-items-center"><label for="max-price" class="w-50">max : <span>{{ maxPrice }}</span></label> <input type="range" id="max-price" class="m-1 w-75"></div>
                 </form>
             </div>
         </header>
         <main>
-            <section class="d-flex justify-content-around border-warning border-dashed p-8">
-                <svg width="215" height="224" viewBox="0 0 215 224" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <section class="sm:flex justify-content-around border-warning border-dashed sm:p-8">
+                <svg class="scale-75 sm:scale-100" width="215" height="224" viewBox="0 0 215 224" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_911_3388)">
 <mask id="mask0_911_3388" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-11" y="-544" width="711" height="3779">
 <path d="M699.885 3234.95L699.885 -543.381H-10.7642L-10.7642 3234.95H699.885Z" fill="white"/>
@@ -136,7 +136,7 @@
 </clipPath>
 </defs>
                 </svg>
-                <div id="on-sale-items" class="d-flex justify-content-end" v-for="(x, index) in schoolSupplies">
+                <div id="on-sale-items" class="d-flex justify-content-center sm:justify-content-end" v-for="(x, index) in schoolSupplies">
                     <div v-if="x.sale">
                         <div class="w-64 bg-warning-20 p-2 pb-0">
                             <img :src="x.img" alt="">
@@ -147,8 +147,8 @@
                     </div>
                 </div>
             </section>
-            <section class="d-flex flex-wrap justify-content-between w-100">
-                <div class="col-3 d-flex justify-content-center my-4" v-for="(x, index) in filteredProducts">
+            <section class="sm:flex flex-wrap justify-content-between sm:w-100">
+                <div class="sm:col-3 d-flex justify-content-center my-4 " v-for="(x, index) in filteredProducts">
                     <div v-if="!x.sale">
                         <div class="w-64 bg-warning-20 p-2 pb-0">
                             <img :src="x.img" alt="">
