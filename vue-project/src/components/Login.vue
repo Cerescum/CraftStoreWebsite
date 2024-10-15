@@ -1,6 +1,6 @@
 <template>
     <Header/>
-    <section class="d-flex justify-content-center gap-5 min-w-screen-md my-40">
+    <section class="sm:flex justify-content-center gap-5 min-w-screen-md my-40">
         <div class="w-80">
             <h2 class="text-uppercase text-center mb-5">log in</h2>
             <div class="form-floating mt-3 mb-3">

@@ -136,7 +136,7 @@
 </clipPath>
 </defs>
                 </svg>
-                <div id="on-sale-items" class="d-flex justify-content-center sm:justify-content-end" v-for="(x, index) in schoolSupplies">
+                <div id="on-sale-items" class="d-flex justify-content-center sm:justify-content-end" v-for="(x, index) in writing">
                     <div v-if="x.sale">
                         <div class="w-64 bg-warning-20 p-2 pb-0">
                             <img :src="x.img" alt="">
